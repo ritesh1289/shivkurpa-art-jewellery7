@@ -1,0 +1,1 @@
+<?php declare(strict_types=1); require __DIR__ . '/../admin.php'; $reflection = new ReflectionFunction('requireAdmin'); if (!$reflection->isUserDefined()) { throw new RuntimeException('Admin guard missing.'); } fwrite(STDOUT, "Admin guard test passed.\n");
