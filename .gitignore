@@ -1,0 +1,28 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime and editor files
+*.log
+*.tmp
+*.cache
+.vscode/
+!.vscode/
+!.vscode/settings.json
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies and generated files
+vendor/
+node_modules/
+uploads/
+!uploads/.gitkeep
+
+# XAMPP/local database exports
+*.sql.zip
+*.dump
